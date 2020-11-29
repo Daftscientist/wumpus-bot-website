@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home | Wumpus Bot</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
+<nav class="navbar navbar-expand-md mixcord-background navbar-mixcord fixed-top">
+    <!-- Navbar Brand -->
+    <a class="navbar-brand" href="#landing">
+    </a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div id="collapsibleNavbar" class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+            <li class="nav-item side-padding-1em">
+                <a class="nav-link" href="https://wumpus-bot.ga">Home</a>
+            </li>
+            <li class="nav-item side-padding-1em">
+                <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item side-padding-1em">
+                <a class="nav-link" href="https://wumpus-bot.ga/commands.html">Commands</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div id="landing" class="container mixcord-background">
+    <div class="modal hide fade" id="welcome-modal">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content modal-text-color">
+                <div class="modal-header">
+                    <h4 class="modal-title">We use cookies!</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <strong>What are cookies?</strong>
+                    <br>
+                    A cookie is a small file of letters and numbers downloaded on to your computer when you access certain websites. Like virtual door keys, cookies unlock a computer's memory and allow a website to recognise users when they return to a site by opening doors to different content or services. Like a key, a cookie itself does not contain information, but when it is read by a browser it can help a website improve the service delivered.
+                    <br>
+                    <strong>By clicking <code>close</code> you accept our cookie policy!</strong>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="titles" class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <h1>Wumpus</h1>
+            <h3>A simple bot for all you discord needs!</h3>
+            <IMG SRC="img/logo.png" ALT="some text" WIDTH=200 HEIGHT=200>
+        </div>
+    </div>
+    <div id="buttons" class="row">
+
+        </div>
+    </div>
+</div>
+<div id="v-shape" class="mixcord-background"></div>
+<div id="features" class="container">
+    <div class="row">
+        <div id="commands-title" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <h2>Features</h2>
+            <h3>
+                Wumpus allows you to control your discord guild with ease
+            </h3>
+            <center>
+            </center>
+        </div>
+    </div>
+    <div class="row">
+        <div id="notif-text" class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-container">
+            <p>
+                Wumpus bot has a very nice looking help command that had impressed many people!
+            </p>
+        </div>
+        <div id="notif-img" class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 img-container">
+            <img src="img/help-cmd.png" title="Notification" alt="Notification">
+        </div>
+    </div>
+    <div class="row">
+        <div id="addnotif-text"
+             class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-container">
+            <p>
+                Quickly add, manage, and remove welcome messages for your guild!
+            </p>
+        </div>
+        <div id="addnotif-img" class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 img-container">
+            <img src="img/welcome.png" title="Add a notification" alt="Add a notification">
+        </div>
+    </div>
+    <div class="row">
+        <div id="mixeruser-text"
+             class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-container">
+            <p>
+                An efficient command that shows you the last message deleted!
+            </p>
+        </div>
+        <div id="mixeruser-img" class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 img-container">
+            <img src="img/snipe.png" title="User info" alt="User info">
+        </div>
+    </div>
+    <div id="teasing-section" class="row">
+        <div id="teasing-text" class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">
+            <h1>Automate your server!</h1>
+            <h5>Add wumpus to your server now!</h5>
+        </div>
+        <div id="teasing-button" class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 img-container">
+            <a class="btn btn-light btn-lg btn-block disabled">
+                Add to Discord
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+<footer id="about" class="container">
+    <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-container">
+            Wumpus Bot
+            Copyright © Daftscientist 2020.
+            Questions, comments, or business inquiries? Contact us via our
+            <a href="https://contact.wumpus-bot.ga" target="_blank">contact page</a>!
+        </div>
+    </div>
+</footer>
+</html>
